@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* containers */
+
+.header {
+    background: #133940;
+    border-bottom: 2px black solid;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 999;
+    height: 140px;
+}
+
+.login_container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 290px;
+    height: 110px;
+    padding: 15px;
+}
+
+.logout_container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 290px;
+    height: 110px;
+}
+
+.header_btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+}
+
+
+
+/* text */
+
+.logged_in {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+.site_name_link {
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+    font-family: serif;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* btns */
+
+.login_btn {
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px; 
+    text-decoration: none;
+    border: 1px black solid;
+}
+
+.logout_btn {
+    margin: 15px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px; 
+    text-decoration: none;
+    border: 1px black solid;
+}
+
+.home_btn {
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.collection_btn {
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.bookshelf_btn {
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+
+
+/* hovers */
+
+.login_btn:hover {
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 4px 4px;
+}
+
+.logout_btn:hover {
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 4px 4px;
+}
+
+.home_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+}
+
+.collection_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+}
+
+.bookshelf_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+}
+
+
+
+/* actives */
+
+.login_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.logout_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.home_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.collection_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.bookshelf_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}

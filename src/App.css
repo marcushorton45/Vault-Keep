@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: lightgrey;
+}
+
+.header {
+  background-color: lightcoral;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-bottom: 2px black solid;
+}
+
+.site_name {
+  font-size: 45px;
+  background-color: lightcoral;
+  width: 100%;
+  display: flex;
+  margin-top: 0;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_nav {
+  font-size: 18px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 2vw;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px white solid;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 5px 5px; 
+}
+
+.login_nav:hover {
+  cursor: pointer;
+  transform: scale(1.02, 1.02);
+  box-shadow: 6px 6px;
+}
+
+.header_navs {
+  font-size: 18px;
+  text-align: end;
+  padding: 10px;
+  margin-right: 2vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 0;
+  top: 0; 
+}
+
+.header_navs:hover {
+  cursor: pointer;
+}
+
+.home_nav {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  box-shadow: 5px 5px;
+}
+
+.home_nav:hover {
+  transform: scale(1.02, 1.02);
+}
+
+.profile_nav {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  box-shadow: 5px 5px;
+}
+
+.bookshelf_nav {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  box-shadow: 5px 5px;
+}

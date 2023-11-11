@@ -1,0 +1,113 @@
+.login_form {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup_form {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_container {
+    width: 400px;
+}
+
+.welcome {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px black solid;
+    height: 350px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    background-color: #ede0d4;
+    border-radius: 20px;
+    box-shadow: 3px 3px;
+}
+
+.form_input {
+    padding: 2px;
+    display: flex;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px black solid;
+}
+
+.login_btn {
+    background-color: white;
+    border: 1px black solid;
+    padding: 12px;
+    padding-right: 29px;
+    padding-left: 29px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.login_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.login_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.signup_btn {
+    background-color: white;
+    border: 1px black solid;
+    padding: 12px;
+    padding-right: 21px;
+    padding-left: 21px;
+    background-color: white;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.signup_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.signup_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.question_btn {
+    margin: 25px;
+    background-color: lightgrey;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: underline;
+    border: none;
+}
+
+.question_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+.question_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+}
